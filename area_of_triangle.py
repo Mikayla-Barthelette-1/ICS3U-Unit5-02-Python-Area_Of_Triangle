@@ -8,11 +8,10 @@
 def calculate_area(base, height):
     # calculate area
 
-    # process & output
-   
+    # process
+
     area = height * base / 2
     print("The area of the triangle is {0} cm².".format(area))
-    
 
 
 def main():
@@ -22,7 +21,7 @@ def main():
     base_from_user = input("Enter the base length of a triangle (cm): ")
     height_from_user = input("Enter the height of a triangle (cm): ")
     print("")
-    
+
     try:
         base = int(base_from_user)
         height = int(height_from_user)
